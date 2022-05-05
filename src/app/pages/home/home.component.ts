@@ -13,5 +13,20 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.foodData = this.service.foodDetails;
   }
+  steps = [
+    {
+      number : 1,
+      step: "Select Food"
+    },
+    {
+      number : 2,
+      step: "Fill the details"
+    },
+    {
+      number : 3,
+      step: "Your order delivered in minute"
+    }
+
+  ]
 
 }

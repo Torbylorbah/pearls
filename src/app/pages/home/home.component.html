@@ -9,26 +9,13 @@
     <h1 class="text-center">How to get <span class="highlight">fresh food</span></h1>
     <div class="row mt-5">
         <!-- one -->
-        <div class="col-lg-4 mt-2">
+        <div class="col-lg-4 mt-2" *ngFor="let step of steps index as i">
             <div class="stepBox">
-                <h1>1</h1>
-                 <p>Select food</p>
+                <h1>{{ step.number }}</h1>
+                 <p>{{ step.step }}</p>
             </div>
         </div>
-        <!-- two -->
-        <div class="col-lg-4 mt-2">
-            <div class="stepBox">
-                <h1>2</h1>
-                <p>Fill the details</p>
-            </div>
-        </div>
-        <!-- three -->
-        <div class="col-lg-4 mt-2">
-            <div class="stepBox">
-                <h1>3</h1>
-                <p>your order delivered in minute</p>
-            </div>
-        </div>
+        
     </div>
 </div>
 
