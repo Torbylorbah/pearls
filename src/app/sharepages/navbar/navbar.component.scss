@@ -1,9 +1,25 @@
 
 .navbar-light .navbar-nav .nav-link{
-    color:var(--secondary-color);
+    color:white;
 }
 .navbar-light .navbar-nav .nav-link.active-link{
     color:var(--primary-color);
     font-weight: bold;
     text-decoration: underline;
+}
+.the-nav{
+    background-color: #000;
+    padding: 20px 10px;
+
+    h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    a{
+        color:#fff;
+        text-decoration: none;
+        padding: 0px 5px;
+        font-size: 18px;
+    }
 }
