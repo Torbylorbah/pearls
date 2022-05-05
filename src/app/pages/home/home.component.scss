@@ -87,3 +87,14 @@
 .container{
     margin-bottom: 20px;
 }
+
+
+@media screen and (max-width:600px) {
+    .content{
+        top: 35%;    
+        left: 13%;
+    }
+    .content h1{
+        font-size: 50px;
+    }
+}
